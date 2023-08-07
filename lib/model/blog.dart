@@ -1,4 +1,3 @@
-
 class Blog {
   String image;
   String title;
@@ -6,5 +5,3 @@ class Blog {
 
   Blog({required this.image, required this.title, required this.description});
 }
-
-abstract interface class UseCase<P,Q> {}
