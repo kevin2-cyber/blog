@@ -1,6 +1,4 @@
 
-import '../core/assets.dart';
-
 class Blog {
   String image;
   String title;
@@ -9,6 +7,4 @@ class Blog {
   Blog({required this.image, required this.title, required this.description});
 }
 
-List<Blog> sample = [
-
-];
+abstract interface class UseCase<P,Q> {}
